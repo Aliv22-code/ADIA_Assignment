@@ -1,0 +1,39 @@
+=== RAW TABLE (stock_loans_raw) ===
+(1, '2024-01-15', 'AAPL', 'Goldman Sachs', '1500.00', '3.25')
+(2, '2024-01-15', 'MSFT', 'Morgan Stanley', '2300.50', '1.80')
+(3, '2024-01-15', 'TSLA', 'Goldman Sachs', 'N/A', '2.10')
+(4, '2024-01-16', 'AAPL', 'Goldman Sachs', '1520.00', '3.30')
+(5, '15/01/2024', 'GOOG', 'Barclays', '800.00', '4.50')
+(6, 'January 17 2024', 'AMZN', 'Jp Morgan', '950.25', '2.75')
+(7, '2024-01-17', '', 'Goldman Sachs', '1100.00', '3.00')
+(8, '2024-01-17', 'NVDA', '', '750.00', '1.95')
+(9, '', 'AAPL', 'Goldman Sachs', '1500.00', '3.25')
+(10, '2024-01-18', 'MSFT', 'Morgan Stanley', '#REF!', '')
+(11, '2024-01-18', 'TSLA', 'Goldman Sachs', '', '')
+(12, '2024-01-15', 'AAPL', 'Goldman Sachs', '1500.00', '3.25')
+(13, '2024-01-19', 'META', 'Barclays', '-200.00', '5.10')
+(14, '2024-01-19', 'NFLX', 'Jp Morgan', '620.75', '3.90')
+(15, '01/20/2024', 'AMD', 'Morgan Stanley', '430.00', '2.20')
+(16, '2024-01-20', 'INTC', 'Goldman Sachs', '310.50', '1.75')
+(17, 'BADDATE', 'ORCL', 'Barclays', '275.00', '3.45')
+(18, '2024-01-21', 'IBM', 'Jp Morgan', '195.00', '4.10')
+(19, '2024-01-21', 'CRM', 'Morgan Stanley', '540.25', '2.85')
+
+=== CLEAN TABLE (stock_loans_clean) ===
+(1, '2024-01-15', 'AAPL', 'Goldman Sachs', 1500.0, 3.25)
+(2, '2024-01-15', 'MSFT', 'Morgan Stanley', 2300.5, 1.8)
+(3, '2024-01-15', 'TSLA', 'Goldman Sachs', None, 2.1)
+(4, '2024-01-16', 'AAPL', 'Goldman Sachs', 1520.0, 3.3)
+(5, '2024-01-15', 'GOOG', 'Barclays', 800.0, 4.5)
+(6, '2024-01-17', 'AMZN', 'Jp Morgan', 950.25, 2.75)
+(7, '2024-01-15', 'AAPL', 'Goldman Sachs', 1500.0, 3.25)
+(8, '2024-01-19', 'META', 'Barclays', None, 5.1)
+(9, '2024-01-19', 'NFLX', 'Jp Morgan', 620.75, 3.9)
+(10, '2024-01-20', 'AMD', 'Morgan Stanley', 430.0, 2.2)
+(11, '2024-01-20', 'INTC', 'Goldman Sachs', 310.5, 1.75)
+(12, '2024-01-21', 'IBM', 'Jp Morgan', 195.0, 4.1)
+(13, '2024-01-21', 'CRM', 'Morgan Stanley', 540.25, 2.85)
+
+=== SUMMARY ===
+Total raw rows   : 19
+Total clean rows : 13
