@@ -1,0 +1,17 @@
+=== PAPERS ===
+('abc1234567890abcdef1234567890abcdef123456', 'COVID-19 impact on government spending in United States')
+('def4567890abcdef1234567890abcdef12345678', 'Research funding trends in United Kingdom during pandemic')
+('ghi7890abcdef1234567890abcdef1234567890ab', 'Epidemiological modelling of SARS-CoV-2 spread in Germany')
+('jkl0123456789abcdef1234567890abcdef123456', 'Vaccine rollout effectiveness: a global perspective')
+('mno3456789abcdef1234567890abcdef123456789', 'Mental health outcomes in Australia post-lockdown')
+
+=== AUTHORS ===
+(1, 'abc1234567890abcdef1234567890abcdef123456', 'Alice', 'R.', 'Smith', 'asmith@mit.edu', 'EDU')
+(2, 'abc1234567890abcdef1234567890abcdef123456', 'Bob', '', 'Jones', 'bjones@harvard.edu', 'EDU')
+(3, 'def4567890abcdef1234567890abcdef12345678', 'Clara', '', 'Brown', 'cbrown@ox.ac.uk', 'UK')
+(4, 'def4567890abcdef1234567890abcdef12345678', 'David', 'T.', 'Wilson', 'dwilson@cam.ac.uk', 'UK')
+(5, 'ghi7890abcdef1234567890abcdef1234567890ab', 'Eva', '', 'Müller', 'emuller@charite.de', 'DE')
+(6, 'jkl0123456789abcdef1234567890abcdef123456', 'Frank', '', 'Lee', 'frank.lee@who.int', 'INT')
+(7, 'jkl0123456789abcdef1234567890abcdef123456', 'Grace', 'S.', 'Kim', 'gkim@kaist.ac.kr', 'KR')
+(8, 'jkl0123456789abcdef1234567890abcdef123456', 'Henry', '', 'Patel', 'hpatel@aiims.edu', 'EDU')
+(9, 'mno3456789abcdef1234567890abcdef123456789', 'Isla', 'J.', 'Turner', 'iturner@unimelb.edu.au', 'AU')
