@@ -1,0 +1,20 @@
+id,trade_date,stockid,broker,measure_one,measure_two,source_file,ingested_at,is_valid,quality_flags
+6,2024-01-15,AAPL,GOLDMAN SACHS,1500.0,3.25,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+7,2024-01-15,MSFT,MORGAN STANLEY,2300.5,1.8,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+8,2024-01-15,TSLA,GOLDMAN SACHS,,2.1,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival|missing_numeric_measure_one
+9,2024-01-16,AAPL,GOLDMAN SACHS,1520.0,3.3,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+10,2024-01-15,GOOG,BARCLAYS,800.0,4.5,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+11,2024-01-17,AMZN,JP MORGAN,950.25,2.75,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+12,2024-01-17,NAN,GOLDMAN SACHS,1100.0,3.0,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+13,2024-01-17,NVDA,NAN,750.0,1.95,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+14,,AAPL,GOLDMAN SACHS,1500.0,3.25,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,missing_date
+15,2024-01-18,MSFT,MORGAN STANLEY,,,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival|invalid_numeric_measure_one|missing_numeric_measure_two
+16,2024-01-18,TSLA,GOLDMAN SACHS,,,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival|missing_numeric_measure_one|missing_numeric_measure_two
+17,2024-01-15,AAPL,GOLDMAN SACHS,1500.0,3.25,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+18,2024-01-19,META,BARCLAYS,-200.0,5.1,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+19,2024-01-19,NFLX,JP MORGAN,620.75,3.9,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+20,2024-01-20,AMD,MORGAN STANLEY,430.0,2.2,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+21,2024-01-20,INTC,GOLDMAN SACHS,310.5,1.75,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+22,,ORCL,BARCLAYS,275.0,3.45,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,unparseable_date
+23,2024-01-21,IBM,JP MORGAN,195.0,4.1,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
+24,2024-01-21,CRM,MORGAN STANLEY,540.25,2.85,broker_data/stock_loans.csv,2026-04-10T06:39:07.462729,0,late_arrival
